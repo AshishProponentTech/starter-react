@@ -4,12 +4,12 @@
   "private": true,
   "homepage": "https://AshishProponentTech.github.io/starter-react",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out",
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d out",
+  "start": "next start"
+},
   "dependencies": {
     "next": "16.1.1",
     "react": "19.2.3",
